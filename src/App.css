@@ -1,0 +1,101 @@
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/*TOPO*/
+header{
+  background-color: #20232a;
+  color: #61dafb;
+  padding-left: 20px;
+}
+header p{
+  font-weight: bold;
+}
+/*conteudo*/ 
+main{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+/*box titulo*/ 
+.box-titulo{
+  background-color: #282c34;
+  font-weight: bold;
+  padding-bottom: 30px;
+  
+}
+h1{
+  color:#61dafb ;
+  margin-top: 0px;
+}
+.box-titulo p{
+  color: white;
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+.box-titulo a{
+  color:black;
+  text-decoration: none;
+  background-color: #61dafb;
+  padding: 10px 20px;
+}
+.box-titulo a:hover{
+  background-color: #25ccfa;;
+}
+/*box requisitos*/
+.box-requisitos{
+  background-color: #ffffff;
+  height: 100%;
+}
+.box-requisitos p{
+  font-weight: bold;
+  
+}
+
+.box-cards{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+margin-top: 90px;
+
+
+}
+.card{
+  background-color:#595b5e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc((100% / 3) - 10px);
+  max-width: 300px;
+  padding: 0px 20px 60px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 9px 5px rgb(145, 145, 145);
+  margin-bottom: 0px;
+}
+.card:hover{
+  background-color: #25ccfa;
+}
+.card h3{
+  color: #edc854;
+  font-size: 20px;
+  
+}
+.card p{
+  color: white;
+  font-weight: bold;
+}
+/* rodape */
+
+footer{
+  background-color:#dad8d8 ;
+  text-align: center;
+  
+}
+footer p{
+  color:black
+}
